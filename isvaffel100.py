@@ -1,3 +1,4 @@
+#dette er en turtle stjerne
 from turtle import *
 
 color('red', 'yellow')
