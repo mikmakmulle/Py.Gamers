@@ -1,4 +1,4 @@
-#dette er en turtle stjerne
+#dette er en turtle stjerne lavet er den seje andreas tropp hag
 from turtle import *
 
 color('red', 'yellow')
