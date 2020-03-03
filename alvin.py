@@ -7,4 +7,3 @@ def firkant(size=40):
         turtle.forward(size)
         turtle.left(90)
 
-firkant()
