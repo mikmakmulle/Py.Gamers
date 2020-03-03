@@ -1,9 +1,5 @@
-# dette er JOnas' fil
 import turtle
-for n in range (1,32):
-    turtle.left(15)
-    turtle.forward(n*4)
-    turtle.left(15)
-    turtle.forward(n*3)
-
+for n in range(9999999999999999999999999999999999999):
+    turtle.left(30)
+    turtle.forward(n-99)
 input()
