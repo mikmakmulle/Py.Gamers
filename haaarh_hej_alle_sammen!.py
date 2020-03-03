@@ -1,4 +1,4 @@
-print ("hej hvad hedder du!")
+navn = input("hvad hedder du? ")
 if navn == "harald" :
     print("hej cool navn", navn)
 else:
