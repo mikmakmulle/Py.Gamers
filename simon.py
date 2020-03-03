@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-# Simons Fil
+#Simon Fil !! nallerne væk!!
 
-Print("Simons kode")
+import turtle
 
-pass
-=======
-#Min
-
-#nej det er min!
-
-#nej miiin!
->>>>>>> 5ab766c60b0c9a6514a14ef2825af673ad11abd3
+def move(x=0,y=0):
+  turtle.penup()
+  turtle.goto(x,y)
+  turtle.pendown()
