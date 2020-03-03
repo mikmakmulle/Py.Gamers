@@ -1,5 +1,6 @@
-print ("hej hvad hedder du!")
-if navn == "harald" :
-    print("hej cool navn", navn)
-else:
-    print("abefjæs ;-)")
+import turtle
+
+def trekant(size=40):
+    for n in range(1,4):
+        turtle.forward(size)
+        turtle.left(120)
