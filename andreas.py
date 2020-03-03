@@ -1,6 +1,6 @@
 import turtle
 
-size=40
-turtle.circle(100)
+size=100
+turtle.circle(size)
 
 input()
