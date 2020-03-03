@@ -1,5 +1,6 @@
 import turtle
-for n in range(9999999999999999999999999999999999999):
-    turtle.left(30)
-    turtle.forward(n-99)
-input()
+
+size=40
+for n in range(1,7):
+    turtle.forward(size)
+    turtle.right(60)
