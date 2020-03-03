@@ -1,6 +1,7 @@
 import turtle
 
 size=40
-for n in range(1,7):
+for n in range(1,6):
     turtle.forward(size)
-    turtle.right(60)
+    turtle.right(72)
+    
