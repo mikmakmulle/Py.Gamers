@@ -1,6 +1,5 @@
 import turtle
 
-size=40
 for n in range(1,7):
     turtle.forward(size)
     turtle.right(60)
