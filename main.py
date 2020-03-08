@@ -4,7 +4,7 @@
 
 
 from andreas import *  # Hent Andreas funktioenr
-#from jonas   import *  # Hent Jonas funktioenr
+from jonas   import *  # Hent Jonas funktioenr
 from alvin   import *  # Hent Alvins funktioenr
 from harald  import *  # Hent Haralds funktioenr
 from henrik  import *  # Hent Henriks funktioenr
@@ -24,7 +24,7 @@ def flower():
     firkant(50)
     ottekant(50)
     trekant(50)
-    #sekskant(50)
+    sekskant(50)
     turtle.left(36)
 
 
@@ -41,7 +41,8 @@ def hus(size=500):
   move(h/1.8,0)
   firkant(h/6)
 
-hus()
+# hus()
+flower()
 
 
 input()
