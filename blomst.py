@@ -24,24 +24,6 @@ def flower():
     turtle.left(36)
 
 
-# flower()
-
-def hus(size=500):
-  h = size/2
-
-  firkant(h)
-  move(-h/10,-h)
-  trekant(h * 1.2)
-  move(h/8+h/10,h/2)
-  firkant(h/6)
-  move(h/1.8,0)
-  firkant(h/6)
-
-# hus()
 flower()
 
-
 input()
-
-# 1. Beregn høje af figur, så den bliver size
-# 2. byg hus
