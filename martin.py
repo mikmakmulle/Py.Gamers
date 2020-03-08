@@ -6,4 +6,4 @@ import turtle
 def ottekant(size=40):
     for n in range(1,9):
         turtle.forward(size)
-        turtle.right(45)
+        turtle.right(45) #hvad mon dette er?
