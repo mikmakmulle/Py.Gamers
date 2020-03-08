@@ -21,3 +21,15 @@ def move(x=0,y=0):
   turtle.pendown()
 
 
+if __name__ == '__main__':
+  size = 50
+  for n in range(1,5):
+    turtle.forward(size)
+    turtle.left(90)
+
+  move(200,200)  
+  
+  for n in range(1,5):
+    turtle.forward(size)
+    turtle.left(90)
+
