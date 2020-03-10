@@ -12,15 +12,13 @@ from loui   import * # hent Louis funktioner
 import turtle # her importerer vi hele turtle modulet
 
 turtle.speed("fastest")
-turtle.color("red" , "blue")
 #turtle.color(0.4,0,1)
 #turtle.pensize(4)
 
 
-
-def hus(size=500):
-  h = size/2
-
+  turtle.pencolor("red")
+  def hus(size=500):
+  h = size/:2
   
   move(-200,200)
   firkant(h)
@@ -38,7 +36,6 @@ def hus(size=500):
   rektangel(h)
   turtle.end_fill()
   
- 
 
 hus()
 
