@@ -7,11 +7,11 @@ def sekskant(size=40):
     for n in range(1,7):
         turtle.forward(size)
         turtle.right(60)
-def mand(size=40):
-    turtle.pencolor("green")
-    turtle.bgcolor("darkblue")
-    turtle.pensize("2")
 
+def mand(size=40):
+    # turtle.pencolor("green")
+    # turtle.bgcolor("darkblue")
+    # turtle.pensize("2")
     turtle.forward(25)
     turtle.right(90)
     turtle.forward(25)
@@ -24,11 +24,11 @@ def mand(size=40):
     turtle.right(90)
     turtle.forward(20)
     turtle.left(90)
-    turtle.forward(125)
+    turtle.forward(100)
     turtle.left(90)
     turtle.forward(60)
     turtle.left(90)
-    turtle.forward(125)
+    turtle.forward(100)
     turtle.left(90)
     turtle.forward(20)
     turtle.right(180)
@@ -60,4 +60,7 @@ def mand(size=40):
     turtle.left(90)
     turtle.forward(20)
     turtle.left(90)
-    turtle.forward(65)
+    turtle.forward(90)
+
+# mand()
+# input()
