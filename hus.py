@@ -7,7 +7,7 @@ from harald  import *  # Hent Haralds funktioenr
 from henrik  import *  # Hent Henriks funktioenr
 from martin  import *  # Hent Martins funktioenr
 from simon   import *  # Hent Simons funktioenr
-from rektangel  import *
+from loui   import * # hent Louis funktioner
 
 import turtle # her importerer vi hele turtle modulet
 
@@ -17,9 +17,12 @@ turtle.color("red" , "blue")
 #turtle.pensize(4)
 
 
+
 def hus(size=500):
   h = size/2
+
   
+   
   firkant(h)
   move(-h/10,-h)
   
@@ -34,9 +37,7 @@ def hus(size=500):
   turtle.begin_fill()
   rektangel(h)
   turtle.end_fill()
-  move(h/3.5,80)
-  cirkel(h)
-
+  
 
   
   
