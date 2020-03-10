@@ -22,7 +22,7 @@ def hus(size=500):
   h = size/2
 
   
-   
+  move(-200,200)
   firkant(h)
   move(-h/10,-h)
   
@@ -38,9 +38,7 @@ def hus(size=500):
   rektangel(h)
   turtle.end_fill()
   
-
-  
-  
+ 
 
 hus()
 
