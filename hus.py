@@ -7,23 +7,39 @@ from harald  import *  # Hent Haralds funktioenr
 from henrik  import *  # Hent Henriks funktioenr
 from martin  import *  # Hent Martins funktioenr
 from simon   import *  # Hent Simons funktioenr
+from rektangel  import *
 
 import turtle # her importerer vi hele turtle modulet
 
 turtle.speed("fastest")
+turtle.color("red" , "blue")
 #turtle.color(0.4,0,1)
 #turtle.pensize(4)
 
+
 def hus(size=500):
   h = size/2
-
+  
   firkant(h)
   move(-h/10,-h)
+  
   trekant(h * 1.2)
   move(h/8+h/10,h/2)
+  turtle.begin_fill()
   firkant(h/6)
   move(h/1.8,0)
   firkant(h/6)
+  turtle.end_fill()
+  move(h/-3.5,40)
+  turtle.begin_fill()
+  rektangel(h)
+  turtle.end_fill()
+  move(h/3.5,80)
+  cirkel(h)
+
+
+  
+  
 
 hus()
 
