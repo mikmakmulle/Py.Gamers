@@ -1,4 +1,3 @@
-import turtle
 
 def sekskant(size=40):
     for n in range(1,7):
