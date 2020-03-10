@@ -17,17 +17,9 @@ turtle.speed("fastest")
 #turtle.pensize(4)
 
 
-<<<<<<< HEAD
 
 def hus(size=0):
-  
-
-=======
-  turtle.pencolor("red")
-  def hus(size=500):
-  h = size/:2
->>>>>>> 782ab59de3605e545fb4df5d90e90800fe49fd65
-  
+    
   move(-200,200)
   firkant(250)
   move(50,50)
