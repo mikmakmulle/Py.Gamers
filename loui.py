@@ -2,7 +2,7 @@ import turtle
 
 
 
-def raktangel(height,width):
+def rektangel(height,width):
     turtle.forward(width)
     turtle.left(90)
     turtle.forward(height)
@@ -11,7 +11,4 @@ def raktangel(height,width):
     turtle.left(90)
     turtle.forward(height)
     turtle.left(90)
-
-
-
 
