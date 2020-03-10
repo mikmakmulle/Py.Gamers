@@ -18,25 +18,21 @@ turtle.color("red" , "blue")
 
 
 
-def hus(size=500):
-  h = size/2
+def hus(size=0):
+  
 
   
   move(-200,200)
-  firkant(h)
-  move(-h/10,-h)
+  firkant(250)
+  move(50,50)
+  trekant(250)
+  move(500,0)
+  firkant(100)
+  move(40,0)
+  firkant(100)
+  move(-100)
+  rektangel(200,100)
   
-  trekant(h * 1.2)
-  move(h/8+h/10,h/2)
-  turtle.begin_fill()
-  firkant(h/6)
-  move(h/1.8,0)
-  firkant(h/6)
-  turtle.end_fill()
-  move(h/-3.5,40)
-  turtle.begin_fill()
-  rektangel(h)
-  turtle.end_fill()
   
  
 
