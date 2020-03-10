@@ -8,22 +8,24 @@ from henrik  import *  # Hent Henriks funktioenr
 from martin  import *  # Hent Martins funktioenr
 from simon   import *  # Hent Simons funktioenr
 from loui   import * # hent Louis funktioner
+from jesper import * # hent jespers funktioner
 
 import turtle # her importerer vi hele turtle modulet
 
 turtle.speed("fastest")
+turtle.color("red" , "blue")
 #turtle.color(0.4,0,1)
 #turtle.pensize(4)
 
 
-  turtle.pencolor("red")
-  def hus(size=500):
-  h = size/:2
+
+def hus(size=500):
+  h = size/2
+
   
   move(-200,200)
   firkant(h)
   move(-h/10,-h)
-  
   trekant(h * 1.2)
   move(h/8+h/10,h/2)
   turtle.begin_fill()
@@ -33,9 +35,10 @@ turtle.speed("fastest")
   turtle.end_fill()
   move(h/-3.5,40)
   turtle.begin_fill()
-  rektangel(h)
+  rektangel(h/6,40)
   turtle.end_fill()
   
+ 
 
 hus()
 
