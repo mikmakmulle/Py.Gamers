@@ -62,5 +62,5 @@ def mand(size=40):
     turtle.left(90)
     turtle.forward(90)
 
-# mand()
-# input()
+mand()
+input()
