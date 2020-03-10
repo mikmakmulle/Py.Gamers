@@ -1,12 +1,36 @@
 # Dette er Jespers fil
 
-import turtle
+# import turtle
 
-def sekskant(size=40):
-    turtle.forward(size)
-    turtle.right(60)
-
-def sekskant(size=40):
-    for n in range(1,7):
-        turtle.forward(size)
-        turtle.right(60)
+def vuffer() # hvad tror du denne her tegner?
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(20)
+    turtle.right(90)
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.forward(60)
+    turtle.right(90)
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(60)
+    turtle.left(90)
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(20)
+    turtle.right(90)
+    turtle.forward(60)
+    turtle.right(90)
+    turtle.forward(20)
