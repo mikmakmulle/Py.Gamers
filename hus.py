@@ -21,21 +21,26 @@ turtle.color("red" , "blue")
 def hus(size=500):
   h = size/2
 
+  # Kasse
+  move(-200,-200)
+  firkant(250)
   
-  move(-200,200)
-  firkant(h)
-  move(-h/10,-h)
+  # Tag
+  move(-25,250)
+  trekant(300)
   
-  trekant(h * 1.2)
-  move(h/8+h/10,h/2)
+  # Vinduer
+  move(50,-150)
   turtle.begin_fill()
-  firkant(h/6)
-  move(h/1.8,0)
-  firkant(h/6)
+  firkant(40)
+  move(150,0)
+  firkant(40)
   turtle.end_fill()
-  move(h/-3.5,40)
+
+  # Dør
+  move(-75,-100)
   turtle.begin_fill()
-  rektangel(h)
+  rektangel(100,50)
   turtle.end_fill()
   
  
