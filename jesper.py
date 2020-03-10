@@ -2,7 +2,7 @@
 
 # import turtle
 
-def vuffer() # hvad tror du denne her tegner ? :-)
+def vuffer(): # hvad tror du denne her tegner ? :-)
     turtle.forward(20)
     turtle.left(90)
     turtle.forward(40)
