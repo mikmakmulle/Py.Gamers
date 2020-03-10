@@ -1,5 +1,5 @@
 navn = input("hvad hedder du? ")
 if navn == "harald" :
-    print("hej cool navn", navn)
+    print("hey cool navn", navn)
 else:
     print("abefjæs ;-)")

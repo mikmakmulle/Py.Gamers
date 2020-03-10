@@ -1,4 +1,5 @@
 # Importer alle functioner i filen, direkte (uden at skulle skrive filnavn.funlktion
+
 from andreas import *  # Hent Andreas funktioenr
 from jonas   import *  # Hent Jonas funktioenr
 from alvin   import *  # Hent Alvins funktioenr
@@ -15,20 +16,13 @@ turtle.speed("fastest")
 
 def flower():
   for n in range(1,11):
-    turtle.pencolor("blue")
     circle(50)
     firkant(50)
     ottekant(50)
     trekant(50)
     sekskant(50)
     turtle.left(36)
-    turtle.pencolor("green")
-    circle(50)
-    firkant(50)
-    ottekant(50)
-    trekant(50)
-    sekskant(50)
-    turtle.left(36)
+
 
 flower()
 
