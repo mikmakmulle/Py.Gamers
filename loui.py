@@ -12,3 +12,4 @@ def rektangel(height,width):
     turtle.forward(height)
     turtle.left(90)
 
+rektangel(250,25)
