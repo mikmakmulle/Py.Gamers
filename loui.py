@@ -50,4 +50,4 @@ if __name__ == "__main__":
         turtle.goto(0,0)
         turtle.pendown()
 
-input()
+# input()
