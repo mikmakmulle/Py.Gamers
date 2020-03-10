@@ -6,6 +6,7 @@ def kantet(size=40):
         turtle.forward(size)
         turtle.right(72)
 
+<<<<<<< HEAD
     
 def sol():
     turtle.color('red', 'yellow')
@@ -21,3 +22,7 @@ def sol():
 if __name__ == "__main__":
 
     sol()
+=======
+if __name__ == '__main__':
+    kantet()
+>>>>>>> 822c8d0d4f46c246f923bfb6183c8110ac58fa02
