@@ -8,12 +8,11 @@ def kantet(size=40):
 
 
 def sol():
-#    from turtle import *
-    color('red', 'yellow')
-    begin_fill()
+    turtle.color('red', 'yellow')
+    turtle.begin_fill()
     while True:
-        forward(100)
-        left(170)
+        turtle.forward(100)
+        turtle.left(170)
         if abs(pos()) < 1:
             break
-    end_fill()
+    turtle.end_fill()
