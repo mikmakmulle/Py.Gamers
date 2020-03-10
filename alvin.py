@@ -1,4 +1,8 @@
-# Alvins fil. GÅ UD!!!! 
+# Alvins fil. GÅ UD!!!! STOP!
+# 
+# 
+# 
+#  
 import turtle 
 
 
