@@ -3,6 +3,7 @@
 import turtle
 
 def move(x=0,y=0):
+  turtle.setheading(90)
   turtle.penup()
   if x > 0:
     turtle.forward(x)
@@ -27,7 +28,7 @@ if __name__ == '__main__':
     turtle.forward(size)
     turtle.left(90)
 
-  move(200,200)  
+  move(290,290)  
   
   for n in range(1,5):
     turtle.forward(size)
