@@ -8,6 +8,7 @@ from henrik  import *  # Hent Henriks funktioenr
 from martin  import *  # Hent Martins funktioenr
 from simon   import *  # Hent Simons funktioenr
 from loui   import * # hent Louis funktioner
+from jesper import * # hent jespers funktioner
 
 import turtle # her importerer vi hele turtle modulet
 
@@ -25,12 +26,20 @@ def hus(size=500):
   move(-200,-200)
   firkant(250)
   
+<<<<<<< HEAD
   # Tag
   move(-25,250)
   trekant(300)
   
   # Vinduer
   move(50,-150)
+=======
+  move(-200,200)
+  firkant(h)
+  move(-h/10,-h)
+  trekant(h * 1.2)
+  move(h/8+h/10,h/2)
+>>>>>>> 0c8c28394376683209c621e4e99a30a2cca559d2
   turtle.begin_fill()
   firkant(40)
   move(150,0)
@@ -40,7 +49,11 @@ def hus(size=500):
   # Dør
   move(-75,-100)
   turtle.begin_fill()
+<<<<<<< HEAD
   rektangel(100,50)
+=======
+  rektangel(h/6,40)
+>>>>>>> 0c8c28394376683209c621e4e99a30a2cca559d2
   turtle.end_fill()
   
  
